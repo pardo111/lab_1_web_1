@@ -9,7 +9,7 @@ $(document).ready(() => {
             edad: $('#edad').val()
         }
         $.ajax({
-            url: "models/procesar.php",
+            url: "app/models/procesar.php",
             type: "POST",
             data: form,
             success: function (res) {
